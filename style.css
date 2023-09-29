@@ -1,5 +1,6 @@
 body {
     font-family: sans-serif;
+    position: relative;
 }
 
 h1 {
@@ -28,7 +29,11 @@ img:hover{
 p{
   color: yellow;  
   background-color: darkgoldenrod;
+  position: absolute;
+  top: 15%;
+  left: 50%;
   }
+
 
 .klee{
   position: relative;
@@ -62,3 +67,4 @@ p{
 .klee2:hover img {
   opacity: 0.5;
 }
+
